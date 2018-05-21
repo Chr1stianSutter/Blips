@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.christian.blipsfirsttry.ProjectView">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="PROJECT OVERVIEW"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <!--Start first Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp" 
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project A"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project B"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project C"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--End First Row-->
+
+            <!-- Second Row -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project D"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project E"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project F"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--End Second Row-->
+            <!--Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project G"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project H"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_donut_large_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Project I"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        android:textAlignment="center"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--End Third Row-->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

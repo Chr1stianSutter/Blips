@@ -1,0 +1,21 @@
+# Blips Site-Map
+
+### Startup-Screen
+- Fancy Loading Animation
+### Project Overview 
+- Add New Project **Button**
+	- Name Project **Plain Text**
+	- Add Description **Multiline Text**
+	- Search Project **Button**
+- Open Existing Project **ImageButton**
+### Task Overview (Projekt Detail)
+- View Project Progress (Actual) **Progress Bar**
+- View Project Progress (Estimated) **Progress Bar**
+- View Project Progress (Percentage) **Number**
+- Add New Task **Button**
+	- Name Task **PlainText**
+	- Allot Time **SeekBar/NumberPicker/Number**
+- Open Existing Task **ImageButton**
+### Time Tracking (Task Detail)
+- Start/Stop Tracking Time **ToggleButton**
+- Mark As Finished/Done **Button**
