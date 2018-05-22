@@ -1,21 +1,43 @@
 # Blips Site-Map
-
-### Startup-Screen
-- Fancy Loading Animation
-### Project Overview 
-- Add New Project **Button**
-	- Name Project **Plain Text**
-	- Add Description **Multiline Text**
-	- Search Project **Button**
-- Open Existing Project **ImageButton**
-### Task Overview (Projekt Detail)
-- View Project Progress (Actual) **Progress Bar**
-- View Project Progress (Estimated) **Progress Bar**
-- View Project Progress (Percentage) **Number**
-- Add New Task **Button**
-	- Name Task **PlainText**
-	- Allot Time **SeekBar/NumberPicker/Number**
-- Open Existing Task **ImageButton**
-### Time Tracking (Task Detail)
-- Start/Stop Tracking Time **ToggleButton**
-- Mark As Finished/Done **Button**
+## Startup-/Splash-Screen
+- Logo
+### Projects Overview 
+- Add New Project /button
+- Search projects (filter) /search Field
+- List of project-cards /cards
+	- Project-Card:
+		- Progress
+		- Title
+		- Last Change
+		- (alerts)
+		- (participants)
+#### Add Project /view
+- Name project /textfield
+- Add description /multiline text field
+- (Add participants) /search-filter: Multiple Choice (select)
+#### Project Detail /view
+- Project progress /graphic
+- Search task (filter)
+- List of tasks and projects within /cards
+	- Edit => delete entire tasks and projects /confirm dialog pop-over
+	- Project-Card (see above)
+	- Task-Card:
+		- Progress
+		- Title
+		- Last change
+		- Time tracked
+		- Remaining time
+		- Score (in percent)
+### Task Detail /view
+- Progress /graphic
+	- Actual
+	- Estimated
+	- Percentage
+- New Task /button
+- Edit name /button
+- Time detail /view
+	- Edit time
+- Start, stop, done /buttons
+#### New Task /View
+	- Name task /textfield
+	- Plan time /time-duration input
