@@ -39,5 +39,5 @@
 	- Edit time
 - Start, stop, done /buttons
 #### New Task /View
-	- Name task /textfield
-	- Plan time /time-duration input
+- Name task /textfield
+- Plan time /time-duration input
